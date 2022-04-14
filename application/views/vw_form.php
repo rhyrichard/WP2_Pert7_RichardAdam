@@ -1,10 +1,16 @@
 <html>
 <head>
-	<title></title>
+	<title>Form Data Siswa</title>
 </head>
 <body>
-    <?php echo validation_errors(); ?>
+<?php echo validation_errors(); ?>
     <center>
+<tr>
+		<th colspan="3">
+		Form Data Siswa
+	</th>
+	</tr>
+
 <form action="<?= base_url('controller/cetak'); ?>"
 method="post">
 	<label>Nama Siswa : </label>
